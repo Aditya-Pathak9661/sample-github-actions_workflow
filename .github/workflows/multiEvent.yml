@@ -3,7 +3,7 @@ on:
     push:
         branches:
             - prod
-            - main
+            - master
     
     pull_request:
         branches:
