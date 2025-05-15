@@ -14,11 +14,11 @@ jobs:
         if: github.event_name == 'push'
         runs-on: ubuntu-latest
         steps:
-            -name: "running on push"
-             run : echo "running on main/prod branches"
+            - name: "running on push"
+              run : echo "running on main/prod branches"
     on-pull-request:
         if: github.event_name == 'pull-request'
         runs-on: ubuntu-latest
         steps:
-            -name : "running on pull request"
-             run : echo "running on pull request"
+            - name : "running on pull request"
+              run : echo "running on pull request"
