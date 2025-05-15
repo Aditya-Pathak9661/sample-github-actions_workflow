@@ -9,8 +9,8 @@ jobs:
     hello_world:
         runs-on: ubuntu-latest
         steps:
-            -name: "print hello world"
-             run: echo "hello world"
+            - name: "print hello world"
+              run: echo "hello world"
             
-             -name: "print current date"
+            - name: "print current date"
               run: date
