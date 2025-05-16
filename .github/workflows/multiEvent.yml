@@ -2,12 +2,12 @@ name : "multi Event workflows/pipeline"
 on:
     push:
         branches:
-            - prod
             - main
+            - master
     
     pull_request:
         branches:
-            - prod
+            - master
 
 jobs:
     on-push:
